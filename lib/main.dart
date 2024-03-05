@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 // Logo Image
                 Image.asset(
-                  'assets/images/logo.jpg',
+                  'assets/images/logo.png',
                   height: 120.0,
                 ),
                 SizedBox(height: 16.0),
