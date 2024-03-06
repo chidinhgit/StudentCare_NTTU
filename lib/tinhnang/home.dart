@@ -5,6 +5,7 @@ import 'package:notification_nttu/tinhnang/ThongTinCaNhan.dart';
 import 'package:notification_nttu/tinhnang/TongQuanTKB.dart';
 import 'package:notification_nttu/tinhnang/dinhhuongnghenghiep.dart';
 import 'package:notification_nttu/tinhnang/thongBaoKhoa.dart';
+import 'package:notification_nttu/tinhnang/tracNghiem.dart';
 
 void main() {
   runApp(MyApp());
@@ -176,10 +177,10 @@ Expanded expanded(String imagePath, String text, BuildContext context) {
             MaterialPageRoute(builder: (context) => ThongBaoKhoa()),
           );
         } else if (text == 'Trắc nghiệm nghề nghiệp') {
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(builder: (context) => tracNghiem()),
-          // );
+          Navigator.push(
+             context,
+             MaterialPageRoute(builder: (context) => tracNghiem()),
+          );
         } else if (text == 'Định hướng nghề nghiệp') {
           Navigator.push(
             context,
